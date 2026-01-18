@@ -1,0 +1,9 @@
+name = "ProvabilityToy"
+defaultTargets = ["ProvabilityToy"]
+
+[[require]]
+scope = "leanprover-community"
+name = "mathlib"
+
+[[lean_lib]]
+name = "ProvabilityToy"
